@@ -1,0 +1,19 @@
+{
+  "name": "edubdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "oimtrust",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "9.5.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "prettier": "^2.8.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  } 
+}
