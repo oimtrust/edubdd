@@ -10,5 +10,9 @@
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^15.0.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   }
 }
