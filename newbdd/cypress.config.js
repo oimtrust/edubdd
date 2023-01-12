@@ -16,12 +16,9 @@ module.exports = defineConfig({
   video: false,
   defaultCommandTimeout: 5000,
   pageLoadTimeout: 10000,
-  ignoreTestFiles: ["*.js", "*.md"],
   e2e: {
     specPattern: "**/*.feature",
     supportFile: false,
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
+    setupNodeEvents,
   },
 });
